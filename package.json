@@ -1,0 +1,21 @@
+{
+  "name": "buildagent1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "dotenv": "^16.4.7",
+    "nodemon": "^3.1.9",
+    "openai": "^4.80.0",
+    "readline-sync": "^1.4.10"
+  }
+}
